@@ -195,7 +195,7 @@
 
   // On the live site, submitting opens an email to WAITLIST_EMAIL. Anywhere else (such as a
   // preview link) the form shows its confirmation without sending anything.
-  var WAITLIST_EMAIL = 'hello@trusseai.com';
+  var WAITLIST_EMAIL = 'contact@trusseai.com';
   var LIVE = /(^|\.)trusseai\.com$|\.netlify\.app$|^localhost$|^127\.0\.0\.1$/.test(location.hostname);
 
   var summary = $('wl-errors');
